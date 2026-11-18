@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and secrets
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+kaggle.json
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Datasets, generated artifacts, and trained models
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+artifacts/
+*.keras
+*.h5
+*.onnx
+*.tflite
+*.pt
+*.pth
+
+# Runtime outputs
+logs/
+reports/generated/
+

@@ -1,0 +1,23 @@
+# Python 3.12 / Windows için Aşama 1'de doğrulanan paket erişim aralıkları.
+# Temiz kurulum testi sonrası kesin sürümler ayrıca kilitlenecektir.
+numpy>=1.26,<3
+pandas>=2.2,<4
+scikit-learn>=1.5,<2
+# MediaPipe de opencv-contrib-python kullandığından iki farklı cv2 paketi kurmuyoruz.
+opencv-contrib-python>=4.10,<6
+mediapipe>=0.10.21,<2
+tensorflow>=2.20,<2.22
+Pillow>=10,<13
+
+streamlit>=1.51,<2
+streamlit-webrtc>=0.64,<1
+
+transformers>=4.57,<6
+torch>=2.5,<3
+sentencepiece>=0.2,<1
+
+matplotlib>=3.9,<4
+seaborn>=0.13,<1
+jiwer>=3,<5
+pytest>=8,<10
+
